@@ -3,8 +3,7 @@ import setuptools
 
 def get_long_description():
     with open("README.md", "r") as readme:
-        with open("CHANGELOG.md", "r") as changelog:
-            return readme.read() + "\n\n" + changelog.read()
+        return readme.read()
 
 
 def version():
