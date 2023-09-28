@@ -12,6 +12,7 @@ on:
   push:
     branches:
     - release/*
+    - main
 
 permissions:
   contents: read
