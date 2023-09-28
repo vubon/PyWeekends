@@ -13,6 +13,9 @@ class OutputFormatter:
         as_json() -> str:
             Formats the data as JSON and returns the JSON string.
 
+        to_original -> Union[Dict[str, List[str]], List]:
+            Formats the data as an original object.e.g dict or List
+
     Example usage:
         data = {'January': ['5', '6', '12', '13', '19', '20', '26', '27'],
         'February': ['2', '3', '9', '10', '16', '17', '23', '24']}
